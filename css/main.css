@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif; }
 
+*::before, *::after {
+  box-sizing: border-box; }
+
 body {
   background-color: #ecf2f8; }
 
@@ -49,7 +52,7 @@ body {
 .perfil_jeane {
   background-color: white;
   color: #48556a;
-  box-shadow: 65px 86px 88px -90px #3c383c; }
+  box-shadow: 60px 80px 80px -100px #685c68; }
 
 .perfil_patrick {
   background-color: #19212e;
@@ -59,7 +62,7 @@ body {
   background-color: white;
   color: #48556a;
   height: 580px;
-  box-shadow: 65px 86px 88px -90px #3c383c; }
+  box-shadow: 60px 80px 80px -100px #685c68; }
   .perfil_kira .container_info {
     height: 90%; }
 
