@@ -1,0 +1,28 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 780px 260px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 35px;
+  
+}
+
+.primer_columna{
+    display: grid;
+    gap: 30px;
+
+}
+
+.primer_row{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    gap: 30px;
+    height: 280px;
+}
+
+.segunda_row{
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 30px;
+    height: 270px;
+}

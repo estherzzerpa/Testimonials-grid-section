@@ -1,0 +1,49 @@
+
+.container_perfil{
+    display: grid;
+    grid-template-columns: 30px 200px;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    img{
+        border-radius: 50%;
+        width: 30px;
+    }
+}
+.container_info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    svg{
+        position: absolute;
+        right: 15%;
+        bottom: 82%;
+        opacity: .4;
+    }
+}
+
+.text_bolder{
+    font-weight: 600;
+    width: 100%;
+}
+
+.text_lighter{
+    font-weight: 500;
+    font-size: 13px;
+    opacity: .6;
+    letter-spacing: .6px;
+
+}
+.profile_name{
+    width: 65%;
+    font-size: 14px;
+}
+
+.little_text{
+    font-size: 12px;
+    opacity: .6;
+    font-weight: lighter;
+
+}

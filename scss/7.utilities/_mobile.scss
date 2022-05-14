@@ -1,0 +1,75 @@
+
+@media screen and (max-width:980px){
+    .grid_container{
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+        margin: 20px;
+    }
+    
+    .perfil_kira{
+        height: 250px;
+
+        .container_info{
+            padding-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:712px) {
+    .grid_container{
+        grid-template-columns: auto;
+        grid-template-rows: 1000px 700px;
+        grid-template-areas:
+            "primer_columna"
+            "segunda_columna"
+        ;
+    }
+
+    .primer_columna{
+        grid-area: primer_columna;
+    }
+    .segunda_columna{
+        grid-area: segunda_columna;
+        margin-top: 290px;
+        height: 560px;
+        
+    }
+    .primer_row{
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+    .segunda_row{
+       grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .perfil_daniel{
+        height:100% ;
+        width:300px ;
+
+    }
+    .perfil_jeane{
+        width:300px ;
+        height: 200px;
+    }
+    .perfil_jona{
+        width:300px ;
+        height: 230px;
+    }
+
+    .perfil_patrick{
+        height: 400px;
+        width:300px ;
+    }
+
+    .perfil_kira{
+        height: 520px;
+        width: 300px;
+        margin-top: 60px;
+    }
+    .container_info{
+        margin-top: 10px;
+    }
+ 
+
+}

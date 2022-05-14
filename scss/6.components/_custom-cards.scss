@@ -1,0 +1,43 @@
+.card_container{
+    padding: 25px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.perfil_daniel{
+    background-color: hsl(263, 55%, 52%);
+    box-shadow: $box-shadow-light;
+
+}
+
+.perfil_jona{
+    background-color: hsl(218, 18%, 43%);
+    box-shadow: $box-shadow-light;
+
+}
+
+.perfil_jeane{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(217, 19%, 35%);
+    box-shadow:$box-shadow;
+}
+
+.perfil_patrick{
+    background-color: hsl(219, 29%, 14%);
+    box-shadow: $box-shadow-light;
+
+}
+
+.perfil_kira{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    height: 580px;
+    box-shadow:$box-shadow;
+    .container_info{
+        height: 90%;
+    }
+}
