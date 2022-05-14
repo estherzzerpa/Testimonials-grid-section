@@ -5,35 +5,34 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .perfil_daniel{
-    background-color: hsl(263, 55%, 52%);
+    background-color:$color-card1;
     box-shadow: $box-shadow-light;
 
 }
 
 .perfil_jona{
-    background-color: hsl(218, 18%, 43%);
+    background-color: $color-card2;
     box-shadow: $box-shadow-light;
 
 }
 
 .perfil_jeane{
-    background-color: hsl(0, 0%, 100%);
+    background-color: $color-card3;
     color:hsl(217, 19%, 35%);
     box-shadow:$box-shadow;
 }
 
 .perfil_patrick{
-    background-color: hsl(219, 29%, 14%);
+    background-color: $color-card4;
     box-shadow: $box-shadow-light;
 
 }
 
 .perfil_kira{
-    background-color: hsl(0, 0%, 100%);
+    background-color: $color-card3;
     color: hsl(217, 19%, 35%);
     height: 580px;
     box-shadow:$box-shadow;
